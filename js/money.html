@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>2000 X</td>
+            <td><input type="number" name="" id="two" onkeyup="a()"></td>
+            <td id="one">0</td>
+
+        </tr>
+        <tr>
+            <td>500X</td>
+            <td><input type="number" name="" id="three" onkeyup="a()"></td>
+            <td id="four">0</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td id="five">0</td>
+        </tr>
+    </table>
+   
+    <script>
+        function a() {
+            var n1 = document.getElementById("two").value
+            var re1 = document.getElementById("one").innerHTML=re1=(2000*n1)
+            var n2=document.getElementById("three").value
+            var re2 =document.getElementById("four").innerHTML=re2=(500*n2)
+            var total=document.getElementById("five").innerHTML=total=(re1)+(re2)
+        }
+    </script>
+</body>
+
+</html>

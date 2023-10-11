@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="one"></h1>
+    <button onclick="a()">xyz</button>
+    <button ondblclick="a()">abc</button>
+    <button onmouseenter="a()">mno</button>
+    <button onmouseleave="a()">pqr</button>
+    <input type="text" name="" id="two">
+    <button id="four" onclick="a()">click here</button>
+    <p id="three"></p>
+    <script>
+        function a() {
+            document.getElementById("one").innerHTML="Tops"
+            var inp=document.getElementById("two").value
+            var res=document.getElementById("three").innerHTML=inp
+        }
+    </script>
+</body>
+</html>
